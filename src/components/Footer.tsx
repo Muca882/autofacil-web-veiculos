@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Car className="h-8 w-8 text-accent" />
-              <span className="text-2xl font-bold">AutoFácil</span>
+              <span className="text-2xl font-bold">Carros Do J</span>
             </div>
             <p className="text-auto-gray-300">
               Sua concessionária de confiança há mais de 15 anos. 
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-auto-gray-300 text-sm">contato@autofacil.ao</span>
+                <span className="text-auto-gray-300 text-sm">contato@carrosdoj.ao</span>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="border-t border-auto-gray-700 mt-12 pt-8 text-center">
           <p className="text-auto-gray-400 text-sm">
-            © 2024 AutoFácil. Todos os direitos reservados. 
+            © 2024 Carros Do J. Todos os direitos reservados. 
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-accent transition-colors">Política de Privacidade</a>
             <span className="mx-2">|</span>

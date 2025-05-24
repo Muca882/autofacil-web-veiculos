@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Car className="h-8 w-8 text-accent" />
-            <span className="text-2xl font-bold text-primary">AutoFácil</span>
+            <span className="text-2xl font-bold text-primary">Carros Do J</span>
           </div>
 
           {/* Desktop Menu */}

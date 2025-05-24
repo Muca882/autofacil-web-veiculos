@@ -12,7 +12,7 @@ const Hero = () => {
             Encontre o <span className="text-accent">Carro dos Seus Sonhos</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-auto-gray-200 animate-fade-in">
-            Na AutoFácil, oferecemos os melhores carros seminovos com garantia, 
+            Na Carros Do J, oferecemos os melhores carros seminovos com garantia, 
             facilidade de pagamento e atendimento personalizado.
           </p>
           
