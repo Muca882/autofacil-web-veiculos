@@ -6,7 +6,7 @@ const CarSection = () => {
     {
       id: 1,
       name: "Honda Civic 2.0 EXL",
-      price: 89000,
+      price: 15500000,
       year: 2020,
       mileage: 35000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
@@ -16,7 +16,7 @@ const CarSection = () => {
     {
       id: 2,
       name: "Toyota Corolla Cross XRE",
-      price: 95000,
+      price: 16800000,
       year: 2021,
       mileage: 28000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
@@ -25,7 +25,7 @@ const CarSection = () => {
     {
       id: 3,
       name: "Volkswagen T-Cross Highline",
-      price: 78000,
+      price: 13900000,
       year: 2020,
       mileage: 42000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
@@ -34,7 +34,7 @@ const CarSection = () => {
     {
       id: 4,
       name: "Hyundai HB20S Evolution",
-      price: 65000,
+      price: 11200000,
       year: 2021,
       mileage: 25000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
@@ -44,7 +44,7 @@ const CarSection = () => {
     {
       id: 5,
       name: "Jeep Renegade Sport",
-      price: 105000,
+      price: 18500000,
       year: 2021,
       mileage: 38000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
@@ -53,7 +53,7 @@ const CarSection = () => {
     {
       id: 6,
       name: "Chevrolet Onix Premier",
-      price: 72000,
+      price: 12800000,
       year: 2022,
       mileage: 15000,
       image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",

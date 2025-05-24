@@ -42,16 +42,16 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-accent" />
                 <span className="text-auto-gray-300 text-sm">
-                  Rua das Palmeiras, 1234<br />Centro - São Paulo/SP
+                  Rua Kwame Nkrumah, 234<br />Maianga - Luanda/Angola
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-accent" />
-                <span className="text-auto-gray-300 text-sm">(11) 99999-9999</span>
+                <span className="text-auto-gray-300 text-sm">+244 923 456 789</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-accent" />
-                <span className="text-auto-gray-300 text-sm">contato@autofacil.com.br</span>
+                <span className="text-auto-gray-300 text-sm">contato@autofacil.ao</span>
               </div>
             </div>
           </div>

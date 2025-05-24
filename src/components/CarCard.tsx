@@ -25,14 +25,14 @@ const CarCard = ({
   isPromotional = false 
 }: CarCardProps) => {
   const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('pt-BR', {
+    return new Intl.NumberFormat('pt-AO', {
       style: 'currency',
-      currency: 'BRL'
+      currency: 'AOA'
     }).format(price);
   };
 
   const formatMileage = (mileage: number) => {
-    return new Intl.NumberFormat('pt-BR').format(mileage);
+    return new Intl.NumberFormat('pt-AO').format(mileage);
   };
 
   return (

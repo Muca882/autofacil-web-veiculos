@@ -70,9 +70,9 @@ const ContactForm = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-auto-gray-600">
-                  Rua das Palmeiras, 1234<br />
-                  Centro - São Paulo/SP<br />
-                  CEP: 01234-567
+                  Rua Kwame Nkrumah, 234<br />
+                  Maianga - Luanda/Angola<br />
+                  CEP: 10234-567
                 </p>
               </CardContent>
             </Card>
@@ -85,8 +85,8 @@ const ContactForm = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <p className="text-auto-gray-600">(11) 99999-9999 - WhatsApp</p>
-                <p className="text-auto-gray-600">(11) 3333-3333 - Fixo</p>
+                <p className="text-auto-gray-600">+244 923 456 789 - WhatsApp</p>
+                <p className="text-auto-gray-600">+244 222 123 456 - Fixo</p>
               </CardContent>
             </Card>
 
@@ -98,8 +98,8 @@ const ContactForm = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-auto-gray-600">contato@autofacil.com.br</p>
-                <p className="text-auto-gray-600">vendas@autofacil.com.br</p>
+                <p className="text-auto-gray-600">contato@autofacil.ao</p>
+                <p className="text-auto-gray-600">vendas@autofacil.ao</p>
               </CardContent>
             </Card>
 
@@ -144,7 +144,7 @@ const ContactForm = () => {
                       id="phone"
                       name="phone"
                       type="tel"
-                      placeholder="(11) 99999-9999"
+                      placeholder="+244 923 456 789"
                       value={formData.phone}
                       onChange={handleInputChange}
                       required
