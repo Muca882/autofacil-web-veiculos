@@ -23,7 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Car className="h-8 w-8 text-primary" />
+            <Car className="h-8 w-8 text-accent" />
             <span className="text-2xl font-bold text-primary">AutoFácil</span>
           </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-auto-gray-600 hover:text-primary transition-colors duration-200 font-medium"
+                className="text-auto-gray-600 hover:text-accent transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
@@ -42,7 +42,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-primary hover:bg-auto-blue-800 text-white">
+            <Button className="bg-accent hover:bg-auto-green-600 text-white">
               Fale Conosco
             </Button>
           </div>
@@ -51,7 +51,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-auto-gray-600 hover:text-primary transition-colors"
+              className="text-auto-gray-600 hover:text-accent transition-colors"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -66,13 +66,13 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-auto-gray-600 hover:text-primary transition-colors duration-200 font-medium"
+                  className="text-auto-gray-600 hover:text-accent transition-colors duration-200 font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
                 </a>
               ))}
-              <Button className="bg-primary hover:bg-auto-blue-800 text-white w-full mt-4">
+              <Button className="bg-accent hover:bg-auto-green-600 text-white w-full mt-4">
                 Fale Conosco
               </Button>
             </nav>

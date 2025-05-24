@@ -9,7 +9,7 @@ const CarSection = () => {
       price: 15500000,
       year: 2020,
       mileage: 35000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=500&h=300&fit=crop",
       description: "Sedã executivo com motor 2.0, câmbio CVT, completo com bancos de couro.",
       isPromotional: true
     },
@@ -19,7 +19,7 @@ const CarSection = () => {
       price: 16800000,
       year: 2021,
       mileage: 28000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1549399853-c25a95e4e63e?w=500&h=300&fit=crop",
       description: "SUV compacto, flex, automático, central multimídia e câmera de ré."
     },
     {
@@ -28,7 +28,7 @@ const CarSection = () => {
       price: 13900000,
       year: 2020,
       mileage: 42000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=500&h=300&fit=crop",
       description: "SUV urbano com motor 1.4 TSI, turbo, ideal para cidade e viagens."
     },
     {
@@ -37,7 +37,7 @@ const CarSection = () => {
       price: 11200000,
       year: 2021,
       mileage: 25000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=500&h=300&fit=crop",
       description: "Sedã compacto econômico, automático, ar condicionado e direção elétrica.",
       isPromotional: true
     },
@@ -47,7 +47,7 @@ const CarSection = () => {
       price: 18500000,
       year: 2021,
       mileage: 38000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1494976688754-90f13e702d2c?w=500&h=300&fit=crop",
       description: "SUV robusto, automático, tração dianteira, perfeito para aventuras."
     },
     {
@@ -56,7 +56,7 @@ const CarSection = () => {
       price: 12800000,
       year: 2022,
       mileage: 15000,
-      image: "https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1550355291-bbee04a92027?w=500&h=300&fit=crop",
       description: "Hatch top de linha, turbo, automático, central multimídia de 8 polegadas."
     }
   ];
@@ -65,7 +65,7 @@ const CarSection = () => {
     <section id="estoque" className="py-16 bg-auto-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-auto-gray-800 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-auto-black-950 mb-4">
             Nosso Estoque de Carros
           </h2>
           <p className="text-lg text-auto-gray-600 max-w-2xl mx-auto">
@@ -86,7 +86,7 @@ const CarSection = () => {
           </p>
           <a 
             href="#contato"
-            className="inline-block bg-primary hover:bg-auto-blue-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+            className="inline-block bg-primary hover:bg-auto-black-900 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
             Ver Estoque Completo
           </a>

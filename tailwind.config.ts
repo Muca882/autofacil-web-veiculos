@@ -26,7 +26,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#1e3a8a', // blue-900
+					DEFAULT: '#000000', // black
 					foreground: '#ffffff'
 				},
 				secondary: {
@@ -42,7 +42,7 @@ export default {
 					foreground: '#64748b' // slate-500
 				},
 				accent: {
-					DEFAULT: '#3b82f6', // blue-500
+					DEFAULT: '#22c55e', // green-500
 					foreground: '#ffffff'
 				},
 				popover: {
@@ -63,14 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'auto-blue': {
-					50: '#eff6ff',
-					100: '#dbeafe',
-					500: '#3b82f6',
-					600: '#2563eb',
-					700: '#1d4ed8',
-					800: '#1e40af',
-					900: '#1e3a8a'
+				'auto-green': {
+					50: '#f0fdf4',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#22c55e',
+					600: '#16a34a',
+					700: '#15803d',
+					800: '#166534',
+					900: '#14532d'
 				},
 				'auto-gray': {
 					50: '#f8fafc',
@@ -83,6 +86,19 @@ export default {
 					700: '#334155',
 					800: '#1e293b',
 					900: '#0f172a'
+				},
+				'auto-black': {
+					50: '#f6f6f6',
+					100: '#e7e7e7',
+					200: '#d1d1d1',
+					300: '#b0b0b0',
+					400: '#888888',
+					500: '#6d6d6d',
+					600: '#5d5d5d',
+					700: '#4f4f4f',
+					800: '#454545',
+					900: '#3d3d3d',
+					950: '#000000'
 				}
 			},
 			borderRadius: {
